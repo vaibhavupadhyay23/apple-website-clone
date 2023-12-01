@@ -46,18 +46,18 @@ body{
   align-items: center;
   width: 100%;
   height: 590px;
-  border: 1px solid black;
-  background-image:url("hero_iphone15pro__i70z9oz3hj2i_large.jpg");
+  /* border: 1px solid black; */
+  background-image:url("images/choose_red_hero__bnqcrkgq6kia_large.jpg");
   background-position: center;
 }
 .top-product-name{
-  color: #ffff;
+  color: black;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 25px;
 }
 .top-product-info{
-  color: #ffff;
+  color:black;
   font-size: 26px;
 }
 .top-product-links,
@@ -78,8 +78,8 @@ body{
   align-items: center;
   width: 100%;
   height: 590px;
-  border: 1px solid black;
-  background-image:url("hero_iphone15_announce__uuemlcwczn6u_large.jpg");
+  /* border: 1px solid black; */
+  background-image:url("images/hero_iphone15_announce__uuemlcwczn6u_large.jpg");
   background-position: center;
 }
 .second-product-name{
@@ -92,4 +92,307 @@ body{
   color: black;
   font-size: 26px;
   font-weight: 600;
+}
+.third-box{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D1D1F;
+}
+.third-box p{
+  color: #ffff;
+  font-size: 14px;
+}
+.third-box p:nth-child(2){
+  color: rgb(50, 50, 255);
+}
+.third-product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 590px;
+  /* border: 1px solid black; */
+  background-image:url("images/hero_iphone15pro__i70z9oz3hj2i_large.jpg");
+  background-position: center;
+}
+.third-product-name{
+  color: #ffff;
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 25px;
+}
+.third-product-info{
+  color: #ffff;
+  font-size: 26px;
+}
+.third-product-links,
+.second-product-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-product-links p,
+.second-product-links p{
+  color:#268CED;
+  margin: 10px;
+  font-size: 24px;
+}
+.products-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+}
+.products-containers{
+  /* border: 1px solid black; */
+  height: 550px;
+  margin: 10px;
+}
+.product-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  /* height: 590px; */
+  /* border: 1px solid black; */
+  background-image:url("images/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg");
+  background-position: center;
+}
+.product-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  /* height: 590px; */
+  /* border: 1px solid black; */
+  background-image:url("images/promo_mbp__ek7p477bkp6q_large.jpg");
+  background-position: center;
+}
+.product-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  /* height: 590px; */
+  /* border: 1px solid black; */
+  background-image:url("images/app_store_awards_promo__bzk0tflix1iu_large.jpg");
+  background-position: center;
+}
+.product-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  /* height: 590px; */
+  /* border: 1px solid black; */
+  background-image:url("images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg");
+  background-position: center;
+}
+.product-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  /* height: 590px; */
+  /* border: 1px solid black; */
+  background-image:url("images/promo_ipad__fioegapg12qi_large.jpg");
+  background-position: center;
+}
+.product-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  /* height: 590px; */
+  /* border: 1px solid black; */
+  background-image:url("images/promo_iphone_tradein__bugw15ka691e_large.jpg");
+  background-position: center;
+}
+.product-1-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.product-1-sub-name{
+  color: red;
+  font-weight: 800;
+}
+.product-1-tagline{
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+.product-1-links{
+  display: flex;
+}
+.product-1-links p{
+  color:#268CED;
+  margin: 10px 30px;
+  font-weight: 600;
+}
+.product-2-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.product-2-sub-name{
+  color: red;
+  font-weight: 800;
+}
+.product-2-tagline{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-2-links{
+  display: flex;
+}
+.product-2-links p{
+  color:#268CED;
+  margin: 10px 30px;
+  font-weight: 600;
+}
+.product-3-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.product-3-sub-name{
+  color: red;
+  font-weight: 800;
+}
+.product-3-tagline{
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-3-links{
+  display: flex;
+}
+.product-3-links p{
+  color:#ffff;
+  margin: 10px 30px;
+  font-weight: 600;
+}
+.product-4-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.product-4-sub-name{
+  color: red;
+  font-weight: 800;
+}
+.product-4-tagline{
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-4-links{
+  display: flex;
+}
+.product-4-links p{
+  color:#268CED;
+  margin: 10px 30px;
+  font-weight: 600;
+}
+.product-5-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.product-5-sub-name{
+  color: red;
+  font-weight: 800;
+}
+.product-5-tagline{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-5-links{
+  display: flex;
+}
+.product-5-links p{
+  color:#268CED;
+  margin: 10px 30px;
+  font-weight: 600;
+}
+.product-6-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.product-6-sub-name{
+  color: red;
+  font-weight: 800;
+}
+.product-6-tagline{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-6-links{
+  display: flex;
+}
+.product-6-links p{
+  color:#268CED;
+  margin: 10px 30px;
+  font-weight: 600;
+}
+.slide-show{
+  width: 100%;
+  height: 90vh;
+  background-image: url(images/1250x703.jpg);
+  animation-name: slide;
+  animation-duration: 24s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes slide{
+  0%{
+    background-image: url(images/1250x703.jpg);
+  }
+  20%{
+    background-image: url(images/1250x703\ \(1\).jpg);
+  }
+  40%{
+    background-image: url(images/1250x703\ \(2\).jpg);
+  }
+  60%{
+    background-image: url(images/1250x703\ \(3\).jpg);
+  }
+  80%{
+    background-image: url(images/1250x703\ \(4\).jpg);
+  }
+  100%{
+    background-image: url(images/1250x703\ \(5\).jpg);
+  }
 }
