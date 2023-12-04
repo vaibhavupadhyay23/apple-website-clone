@@ -17,7 +17,7 @@ body{
   justify-content: center;
   align-items: center;
   list-style: none;
-  background-color: rgba(255, 255, 255, 0.018);
+  background-color: #1D1D1F;
   backdrop-filter: blur(25px);
 }
 .nav-options li{
@@ -395,4 +395,75 @@ body{
   100%{
     background-image: url(images/1250x703\ \(5\).jpg);
   }
+}
+
+footer{
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-text,
+.footer-links,
+.footer-link-down,
+.footer-final{
+  width: 65%;
+  font-size: 12px;
+  color: rgb(110, 110, 115);
+}
+.footer-text p {
+  margin: 20px;
+}
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links-containers p{
+  margin: 8px;
+}
+.shop-learn,
+.apple-wallet,
+.account,
+.entertainment,
+.apple-store,
+.for-business,
+.for-healthcare,
+.for-education,
+.apple-values
+{
+  font-weight: 800;
+  padding: 10px 0px;
+}
+.footer-link-down  p{
+  width: 65%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: rgb(110, 110, 115);
+}
+.footer-final{
+  width: 65%;
+  font-size: 12px;
+  color: rgb(110, 110, 115);
+  display: flex;
+  margin: 8px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+}
+.left p{
+  padding: 0px 10px;
+}
+.left p{
+  border-right: 1px solid gray;
+}
+.left p:nth-child(1){
+  border: none;
+}
+.left p:nth-child(6){
+  border: none;
 }
